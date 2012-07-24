@@ -1,0 +1,44 @@
+---
+title: MacBook Pro With Retina Display (MBPr)
+created_at: 2012-07-23 21:55:00 UTC
+---
+
+When the new MacBook Pro was released I bought one with the retina display. I have a variety of reasons, but for now I want to capture some of my first impressions.
+
+I have used Linux (usually [Ubuntu](http://www.ubuntu.com/)) at home exclusively for the last sevenish years. Before that I used Windows for as long as I can remember. I used a Mac at church for a few years, but my experience was limited by the one or two programs I needed to used. For the past two years and a half, I have worked in an all-Apple office (usually pairing on somebody else's computer).
+
+## Good
+
+### Anything optimized for retina display looks amazing
+
+I was editing a bulletin for church the other day, and the text was so beautiful I wanted to cry.
+
+### Cool apps
+
+Living exclusively in Linux means living without many of the hip, fun apps that look great and fill certain niches. For instance in Ubuntu I had to use [Gwibber](http://gwibber.com/) to follow my Twitter feed. Now I can use the official Twitter app. The difference between the two is night and day. Another app I am excited about is Numbers.
+
+### Zero driver issues
+
+My last laptop was from Sony, and the Linux support was worse than non-existent.
+
+## Bad
+
+### Apple is trying to blind me
+
+Everytime I plug in the power cord, my screen brightness gets set to eleven. And everytime I have to set the brightness back to the midway point. Really this setting should be saved for each power source.
+
+### Printer (Brother HL-4600) was not usable until I installed drivers
+
+I had to search the Brother website for the correct driver to install, then I had to setup the printer and restart my application before I could print. This is what I had to do last year in Ubuntu. (Windows installed the printer just fine when I plugged in.) More recently in Ubuntu, everything just worked.
+
+### Finding, installing and maintaining software
+
+Installing software on OS X feels like installing software on Windows 95, 98, XP et cetera. [Where is the progress?](/2012/07/23/osx-software)
+
+### Firewall off by default
+
+![Nope](http://i247.photobucket.com/albums/gg148/blot_/blot2/NOPE.gif)
+
+### No support for FLAC
+
+### Must wait for display to wake before typing password
