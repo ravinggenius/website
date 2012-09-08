@@ -1,0 +1,12 @@
+---
+title: OSX Mountain Lion
+created_at: 2012-08-15 17:21:49 UTC
+---
+
+I upgraded my MacBook Pro to Mountain Lion a bit ago, and in some ways it feels like a big step backwards. Below are some issues I have noticed after upgrading that I do not recall in Lion.
+
+## Slow resume time
+
+## Wake-up login screen
+
+So this is driving me batty: when I wake the computer up, the background image is randomly either the default Mountain Lion background or my custom background. Just for good measure, sometimes a background I used to have set will be shown. What?! Why is this Apple? I do not have multiple backgrounds selected to rotate; I just have one. This seems to be a problem with OSX 10.8; I only used 10.7 briefly, but I do not remember this being an issue before "upgrading". Has anyone else experienced this or am I the lucky one?
