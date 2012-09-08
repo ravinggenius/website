@@ -1,5 +1,5 @@
 ---
-title: Pink() Notes For 2012-08-02: Breakpoint
+title: 'Pink() Notes For 2012-08-02: Breakpoint'
 created_at: 2012-08-02 23:22:52 UTC
 ---
 

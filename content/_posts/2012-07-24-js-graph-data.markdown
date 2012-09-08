@@ -1,5 +1,5 @@
 ---
-title: TriangleJS Notes For 2012-07-24: Graph Database
+title: 'TriangleJS Notes For 2012-07-24: Graph Database'
 created_at: 2012-07-24 23:10:00 UTC
 ---
 
