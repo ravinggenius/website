@@ -10,10 +10,10 @@ While reading [Joel Runyon's impossible blog](http://joelrunyon.com/two3/), I be
   * Bachelor of Science in Computer Science (Computer Science Department - <advising@csc.ncsu.edu>)
   * Bachelor of Science in Business Administration with Entrepreneurship Concentration (Business Management/Entrepreneurship - <art_padilla@ncsu.edu>)
 
-## Business
+## Business Projects
 
 * Foresight
-* Buttonator
+* Event Emitter Button
 * Make money on the stock market
 * Multiple residual incomes
 * Make enough money to live comfortably on ~10% income. Do good with the rest
@@ -81,6 +81,7 @@ While reading [Joel Runyon's impossible blog](http://joelrunyon.com/two3/), I be
   * French
   * German
   * Russian
-* Build a trebuchet
 * Build a flamethrower
+* Build a quadrocopter safe enough to ride in
+* Build a trebuchet
 * Pilot's license
