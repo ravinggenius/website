@@ -1,0 +1,67 @@
+These conventions are inspired almost entirely on the conventions that Ruby on Rails uses. More (Rails specific) details can be found at http://rails.raaum.org/database-conventions.html
+
+Schemas, Tables, Fields
+	lowercase names (always)
+	underscores_always_separate_words
+	if you had a class modeling the table, it would be CamelCasedWithoutUnderscores
+
+Schemas
+	for single-job schemas
+		jobnumber_client_description_development/production/test
+		1786_gsk_veramyst_development
+		1786_gsk_veramyst_production
+		1786_gsk_veramyst_test
+	for product or service schemas which multiple clients would use/share
+		product_contents_development/production/test
+		intellitag_common_development
+		intellitag_common_production
+		intellitag_common_test
+
+Tables
+	plural table names
+	join tables should be alphabetically named after the tables it joins and should only contain foreign keys
+		'items_users'
+			note that both words are plural
+			also note that items is before users because that is the alphabetical order
+		this table would only have the two following fields: 'item_id', 'user_id'
+			no 'id' field (see below)
+		this table could perhaps also have timestamp fields (see below)
+
+Fields
+	singular_field_name
+	the first field in every table should be id
+		always only named simply 'id'
+		this should be an auto-incrementing integer
+		except for join tables (see above)
+	foreign keys should be the singular_table_name_it_refers_to followed by _id
+		articles.user_id -> users.id
+		all foreign keys should be listed immediately after the id field
+		if implementing a tree or nested set, use 'parent_id' and place it before any other foreign keys
+		if implementing a nested set, place 'left' and 'right' fields just after 'parent_id'. this is the exception to the order rule below
+	standard
+		for people tables ('users' etc)
+			'first_name', 'middle_name' and 'last_name' is preferred to 'full_name'
+			'full_name' is preferred to just 'name' or 'full'
+		'name' is preferred to 'title', except for things like articles or books
+			use what makes sense
+		if it can be avoided, do not repeat the table name as a field prefix
+			in table 'roles' do not have 'role_name', have 'name'
+	booleans
+		is_active
+		is_published
+	datestamp examples: note that _at is used for datetime values whereas _on is used for date-only values
+		+---------------+-------------+
+		| date and time | date only   |
+		+---------------+-------------+
+		| created_at    | created_on  | for auto-inserted timestamp only use created_at/on
+		| updated_at    | updated_on  | use updated_at/on not modified_at/on
+		| due_at        | due_on      |
+		| accessed_at   | accessed_on |
+		| ..._at        | ..._on      |
+		+---------------+-------------+
+	fields should be logically grouped, generally as follows
+		id - first
+		foreign keys - after id
+		standard fields - in the middle
+		booleans - next-to-last
+		datestamps - last

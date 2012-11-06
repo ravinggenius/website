@@ -1,0 +1,18 @@
+a[href^='ftp']:after {
+	content: " ftp";
+}
+a[href^='git']:after {
+	content: " git";
+}
+a[href^='http']:after {
+	content: " http";
+}
+a[href^='mailto']:after {
+	content: " mailto";
+}
+a[href^='ssh']:after {
+	content: " ssh";
+}
+a:visited:before {
+	content: "\2713 ";
+}

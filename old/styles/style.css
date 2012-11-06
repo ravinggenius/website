@@ -1,0 +1,49 @@
+.step h3:before {
+	content: 'Step: ';
+}
+.schema {
+	font-family: monospace;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+.legend {
+	border: 1px solid #ffffff;
+}
+.table {
+	border: 1px solid #000000;
+}
+.view {
+	border: 1px dashed #000000;
+}
+	.schema > * {
+		margin: 0;
+	}
+	.schema h3 {
+		font-size: 1.5em;
+	}
+	.schema ul.fields {
+		list-style-type: none;
+		padding-left: 0;
+	}
+		.schema ul.fields li {
+		}
+		.schema ul.fields li.primary_key {
+			font-weight: bold;
+		}
+		.schema ul.fields li.forgeign_key {
+			border-bottom: 1px solid #000000;
+		}
+		.schema ul.fields li.decimal {
+			text-align: right;
+		}
+		.schema ul.fields li.integer {
+			text-align: right;
+		}
+		.schema ul.fields li.boolean {
+			outline: 1px dotted #000000;
+		}
+		.schema ul.fields li.datetime {
+			font-style: italic;
+			text-align: center;
+		}

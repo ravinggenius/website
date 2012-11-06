@@ -1,0 +1,17 @@
+a:after {
+	font-size: 10px;
+}
+a:visited {
+	text-decoration: linethrough;
+}
+#branding {
+}
+
+#content_primary {
+}
+
+#credits {
+}
+	#credits p {
+		font-size: 12px;
+	}
