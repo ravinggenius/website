@@ -1,6 +1,7 @@
 ---
 title: Templating Ideas
 created_at: 2011-11-02 00:00:00 UTC
+published: false
 ---
 
 * simple dom snippets (%haml or slim or jade are nice)
