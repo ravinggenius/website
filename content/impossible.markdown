@@ -37,11 +37,11 @@ While reading [Joel Runyon's impossible blog](http://joelrunyon.com/two3/), I be
 
 ## Body/Health
 
-* Tough Mudder
+* <del>Tough Mudder</del> (<time datetime="2012-10-27">2012.10.27</time>)
 * Be totally ripped and *HOT* (clothed and naked)
 * 100 consecutive pushups with good form
 * 50 consecutive pullups with good form
-* Learn to enjoy very cold showers
+* <del>Learn to enjoy very cold showers</del> (<time datetime="2012-08-27">2012.08.27</time>)
 * Sleep more
 
 ## Adventure
