@@ -1,5 +1,7 @@
 ---
 title: Impossible List
+menu:
+  position: 0
 ---
 
 While reading [Joel Runyon's impossible blog](http://joelrunyon.com/two3/), I became inspired to create my own [impossible list](http://joelrunyon.com/two3/the-impossible-list). Expect this list to get longer and have more things crossed off as time goes by.
