@@ -1,0 +1,10 @@
+---
+layout: post_index
+---
+
+%section
+  - page.sub_content.each do |post|
+    %article.post
+      %header
+        %div.h= post.title
+      %section= post.render_partial
