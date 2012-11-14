@@ -1,9 +1,10 @@
 ---
+title: Node Resources
 menu:
   position: 0
 ---
 
-This page is a living document containing links to resources, libraries, tutorials and other ideas related to node.js. I am interested in node.js development, and this is mostly a roughly categorized collection of list for future reference.
+This page is a living document containing links to resources, libraries, tutorials and other ideas related to Node.js. I am interested in node.js development, and this is mostly a roughly categorized collection of list for future reference.
 
 ## Real-Time Dashboard
 * http://shopify.github.com/dashing/
