@@ -32,7 +32,7 @@ Presented by Joseph Jaber and Michael Stalker
   * `method_missing(missing_method, *args)` (hackish)
   * `define_method(method_name, &block)`
   * `send(method, *args)`
-  * Use `<<` to define class-level methods
+  * Use `<<` to define multiple class-level methods
       class Person
         class << self
           # in the meta-class!
